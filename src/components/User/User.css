@@ -1,0 +1,19 @@
+.card {
+    flex-basis: calc(33.3% - 22px);
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+.card:nth-child(3n) {
+    background-color: green;
+    color: white;
+}
+
+.card:nth-child(3n+1) {
+    background-color: orange;
+}
+
+.card:nth-child(3n+2) {
+    background-color: palegoldenrod;
+}
