@@ -1,0 +1,9 @@
+.answer {
+    background: lavender;
+    width: 500px;
+    margin: 0 auto;
+    height: 100px;
+    border: 2px solid blue;
+    box-sizing: content-box;
+    min-height: 150px;
+}
